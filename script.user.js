@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         DGG r/place
+// @name         Alex r/place
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Template overlay for DGG.
@@ -12,7 +12,7 @@ if (window.top !== window.self) {
     window.addEventListener('load', () => {
         // Load the image
         const image = document.createElement("img");
-        image.src = "https://github.com/zX3no/dgg-reddit-place/raw/main/template.png";
+        image.src = "https://github.com/Muo32sd/Purbea23/blob/main/MiniYoPeruJapon1.png";
         image.onload = () => {
             image.style = `position: absolute; left: 0; top: 0; width: ${image.width / 3}px; height: ${image.height / 3}px; image-rendering: pixelated; z-index: 1`;
         };
